@@ -1,0 +1,20 @@
+[package]
+name = "neon_training"
+version = "0.1.0"
+authors = ["Thomas Haessle <thaessle@cutii.io>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "neon_training"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2.0"
+
+[dependencies]
+neon = "0.2.0"
+diskus = "0.5.0"
+num_cpus = "1.0"
+humansize = "1.1"

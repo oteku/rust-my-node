@@ -1,0 +1,18 @@
+{
+  "name": "neon-training",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Thomas Haessle <thaessle@cutii.io>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  },
+  "devDependencies": {
+    "yargs": "^13.2.2"
+  }
+}
